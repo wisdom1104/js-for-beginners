@@ -1,0 +1,15 @@
+/* Wether */
+#weather {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 18px;
+}
+
+#weather span {
+  color: white;
+  text-shadow: 1.5px 1.5px 0px var(--main-color);
+}
+
+

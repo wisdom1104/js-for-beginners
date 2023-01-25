@@ -1,0 +1,21 @@
+/* quote */
+#quote {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#quote span {
+  color: white;
+  text-shadow: 1.5px 1.5px 0px var(--main-color);
+  font-size: 20px;
+}
+
+#quote :last-child {
+  font-size: 15px;
+}
+
+

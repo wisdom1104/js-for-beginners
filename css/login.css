@@ -1,0 +1,44 @@
+/* Login */
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.name-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:auto;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hidname {
+  text-shadow: 3px 3px 2px white;
+}
+
+.what {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#login-form input {
+  border: none;
+  padding: 10px;
+  background-color: var(--back-color);
+  font-size: 30px;
+}
+#login-form ::placeholder {
+  color: var(--pla-color);
+}
+
