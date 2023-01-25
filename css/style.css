@@ -1,6 +1,39 @@
+
+@import "img.css";
+@import "todo.css";
+@import "login.css";
+@import "quote.css";
+@import "weather.css";
+@import "time.css";
+
+
+
 .hidden {
   display: none;
 }
+
+* {
+  color: var(--main-color)
+}
+
+:root {
+  --back-color:rgba(255, 255, 255, 0.5);
+  --pla-color: rgb(138, 142, 217);
+  --main-color: rgb(91, 97, 176);
+}
+
+
+body {
+  position: relative;
+  margin: 0%;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+
+
 
 
 
