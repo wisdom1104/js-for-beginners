@@ -17,13 +17,11 @@ function deleteToDo(event) {
   saveToDos();
 }
 
-
 function checkBox (event) {
   const button = event.target;
   button.innerText = "✔";
   toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
   saveToDos();
-
 }
 
 function delCheck (event) {
@@ -37,10 +35,6 @@ function paintToDo(newTodo) {
   const li = document.createElement("li");
   li.id = newTodo.id;
   const checkbutton = document.createElement("button");
-  const checkObj = {
-    id: Date.now(),
-  };
-
   const span = document.createElement("span");
   span.innerText = newTodo.text;
   const delbutton = document.createElement("button");
@@ -51,11 +45,6 @@ function paintToDo(newTodo) {
   li.appendChild(span);
   li.appendChild(delbutton);
   toDoList.appendChild(li);
-  // if(checkbutton.innertext !== "none") {
-  //   checkbutton.innertext = "none";
-  // }
-  checkbutton.push(checkObj);
-
 }
 
 function handleToDoSubmit(event) {

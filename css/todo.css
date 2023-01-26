@@ -58,6 +58,16 @@
   padding: 0px 30px 0px 10px;
 }
 
+#todo-list li button:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+}
+
 #todo-list li button:last-child {
   background-color: transparent;
   border: none;
